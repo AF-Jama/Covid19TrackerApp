@@ -23,10 +23,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # env
-./env
+/.env
 
 #webpack config 
-./webpack.config.js
+/webpack.config.js
 
 
 
