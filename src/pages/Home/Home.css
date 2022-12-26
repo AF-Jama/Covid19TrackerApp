@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --maxWidth:1300px;
+}
+
+#home-outer-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* min-height is 100vh so it can be the height of the viewport by minimum, this is done as by default the body if not defined with a height then it is then the same height as the content */
+}
+
+#main-outer--wrapper-container-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 2rem;
+    min-height: 80vh;
+    background-color: #a0d2eb;
+}
+
+#inner-container{
+    /* display: flex;
+    flex-direction: column; */
+    border: 2px solid green;    
+    width: 100%; /*90% of hero outer container on small screens*/
+    /* max-width: var(--maxWidth); max width of 1300px which caps off */
+}
+
+#graph-container{
+    margin-top: 2rem;
+}
+
+#action-button{
+    width: 240px;
+    transition: width 1s ease-in-out;
+}
+
+#action-button:hover{
+    width: 300px;
+}
+
+
+@media screen and (min-width:800px){
+    /* triggered when viewport width is greater than 800px */
+    #inner-container{
+        width: 90%;
+        max-width: var(--maxWidth);
+    }
+}
+

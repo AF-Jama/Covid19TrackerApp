@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --maxWidth:1300px;
+}
+
+#death-data-container{
+    min-height: 100%;
+}
+
+@keyframes flashingLoadingScreen {
+    0%{
+        opacity: 1;
+        /* color: green; */
+    }
+
+    50%{
+        opacity: 0.5;
+        /* color: red; */
+    }
+
+    100%{
+        opacity: 0;
+        /* color: blue; */
+    }
+}
+
+#loading-title{
+    animation-name: flashingLoadingScreen;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}

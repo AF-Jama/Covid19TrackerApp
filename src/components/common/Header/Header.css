@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --maxWidth:1300px;
+    /*
+    Need to add color defaults  
+    */
+}
+
+header{
+    min-height: 5vh;
+}
+
+
+#inner-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+@media screen and (min-width:800px){
+    #inner-header-container{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 90vw;
+        max-width: var(--maxWidth);
+        margin: 0 auto;
+    }
+}
