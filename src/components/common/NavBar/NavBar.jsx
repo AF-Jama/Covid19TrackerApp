@@ -35,7 +35,7 @@ const NavBar = (props)=>{
                 <ActionButton id="action-button" text="API Source" style={{borderRadius:"5%",padding:"0.5rem 2rem",backgroundColor:"lightblue",fontSize:"1.2rem"}}/>
             </div>
 
-            <div id="burger-btn" style={{border:"2px solid red"}} onClick={onClick}>
+            <div id="burger-btn" onClick={onClick}>
                 <FontAwesomeIcon icon={faBars} width="60px" height="60px" color="black"/>
             </div>
         </nav>

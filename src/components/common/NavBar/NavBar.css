@@ -7,7 +7,7 @@
 #burger-btn{
     position:absolute;
     top: 0;
-    right: 0;
+    right: -10px; /* shifts absolute positioned element futher to the right */
 }
 
 #outer-navigation-container{

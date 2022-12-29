@@ -14,10 +14,9 @@ const Footer = (props)=>{
                 </div>
 
                 <div id="more-links-container">
-                    <a href="#" className="more-link">API Documentation</a>
-                    <span></span>
-                    <a href="#" className="more-link">More About Pandemic</a>
-                    <a href="#" className="more-link">Ways to keep safe</a>
+                    <a href="https://coronavirus.data.gov.uk/details/developers-guide/main-api" target="_blank" className="more-link">API Documentation</a>
+                    <a href="https://www.worldometers.info/coronavirus/" target="_blank" className="more-link">More About Pandemic</a>
+                    <a href="https://www.redcross.org/about-us/news-and-events/news/2020/coronavirus-safety-and-readiness-tips-for-you.html" target="_blank" className="more-link">Ways to keep safe</a>
                 </div>
             </div>
         </footer>

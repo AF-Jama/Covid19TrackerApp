@@ -5,7 +5,7 @@
 }
 
 footer{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     /* position: fixed;
     bottom: 0;
     right: 0;
@@ -20,9 +20,9 @@ footer{
 #inner-container{
     display: flex;
     width: auto;
-    border: 2px solid red;
+    border: 2px solid transparent;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -51,6 +51,7 @@ footer{
         max-width: 1300px;
         margin: 0 auto;
         flex-direction: row;
+        align-items: flex-end;
         justify-content: space-between;
     }
 
