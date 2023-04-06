@@ -87,7 +87,7 @@ const Main = (props)=>{
                 </div>
             </main>
 
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 }

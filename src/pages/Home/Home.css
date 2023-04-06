@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* min-height is 100vh so it can be the height of the viewport by minimum, this is done as by default the body if not defined with a height then it is then the same height as the content */
+    background-color: lightblue;
 }
 
 #main-outer--wrapper-container-hero{
@@ -20,8 +21,9 @@
     align-items: center;
     /* justify-content: center; */
     margin-top: 2rem;
-    min-height: 80vh;
+    /* min-height: 80vh; */
     background-color: #a0d2eb;
+    flex: 1;
 }
 
 #inner-container{

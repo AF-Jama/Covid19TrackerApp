@@ -28,7 +28,7 @@ const NavBar = (props)=>{
 
     return (
         <nav id="outer-navigation-container">
-            <div id="nav-links-outer-container" style={{border:"2px solid white"}} ref={outerNavigationLinkContainerRef}>
+            <div id="nav-links-outer-container" ref={outerNavigationLinkContainerRef}>
                 <a href="/" className="nav-link">Home</a>
                 {/* <a href="#" className="nav-link">About</a> */}
                 <a href="/main" className="nav-link">Main</a>

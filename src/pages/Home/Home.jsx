@@ -62,7 +62,7 @@ const Home = (props)=>{
                 </div>
             </main>
 
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 }
